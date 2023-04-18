@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 231, 241);
+}
+
+div.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#count{
+    font-size: 5rem;
+}
+
+.positive{
+    color: rgb(66, 150, 66);
+}
+
+.negative{
+    color: rgb(192, 86, 86)
+}
+
+div button {
+    padding: 10px; 
+    margin: 0 10px ;
+    background: none; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button#minus , button#plus{
+    width: 40px;
+}
